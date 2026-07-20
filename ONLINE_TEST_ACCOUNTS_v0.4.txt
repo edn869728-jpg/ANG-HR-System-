@@ -1,0 +1,45 @@
+ANG HR 線上帳號資料 v0.4.0
+============================
+
+登入畫面不提供快速填入按鈕，請依方案手動複製以下資料。
+
+企業方案（帳號／Email／密碼）
+--------------------------------
+Business Basic
+帳號：ANG-BETA-BASIC
+Email：basic@ang-beta.test
+密碼：AngBeta#2026
+
+Business Pro
+帳號：ANG-BETA-PRO
+Email：pro@ang-beta.test
+密碼：AngBeta#2026
+
+Business Premium
+帳號：ANG-BETA-PREMIUM
+Email：premium@ang-beta.test
+密碼：AngBeta#2026
+
+個人方案（帳號／Email／密碼）
+--------------------------------
+Solo
+帳號：ANG-SOLO-01
+Email：solo@ang-beta.test
+密碼：AngBeta#2026
+
+Performance
+帳號：ANG-PERFORMANCE-01
+Email：performance@ang-beta.test
+密碼：AngBeta#2026
+
+免費方案（Email／驗證碼）
+--------------------------------
+Personal Lite
+Email：personal-lite@ang-beta.test
+驗證碼：123456
+
+Business Lite
+Email：business-lite@ang-beta.test
+驗證碼：123456
+
+注意：目前是純前端版本，資料保存在使用者自己的瀏覽器中；清除網站資料後會重置。
