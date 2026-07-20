@@ -22,7 +22,7 @@ for (const input of buildInputs) {
   assert.ok(info.isFile() && info.size > 0, `required build input is missing or empty: ${path.relative(root, input)}`);
 }
 
-assert.match(source, /const APP_VERSION = 'v0\.5\.0'/, 'source must expose the active online version');
+assert.match(source, /const APP_VERSION = 'v0\.6\.0'/, 'source must expose the active online version');
 
 const temporaryAccounts = [
   { label: 'Business Basic', account: 'ANG-BETA-BASIC', email: 'basic@ang-beta.test', secretKey: 'password', secret: 'AngBeta#2026', role: 'admin', planKey: 'business-basic' },
@@ -92,7 +92,7 @@ const builtJavaScript = (
       .map(asset => readFile(path.join(dist, assetPath(asset)), 'utf8')),
   )
 ).join('\n');
-assert.ok(builtJavaScript.includes('v0.5.0'), 'built JavaScript does not contain the release version');
+assert.ok(builtJavaScript.includes('v0.6.0'), 'built JavaScript does not contain the release version');
 for (const temporaryAccount of temporaryAccounts) {
   for (const value of [temporaryAccount.account, temporaryAccount.email, temporaryAccount.secret, temporaryAccount.planKey]) {
     assert.ok(builtJavaScript.includes(value), `${temporaryAccount.label} temporary account value is missing from the built JavaScript: ${value}`);

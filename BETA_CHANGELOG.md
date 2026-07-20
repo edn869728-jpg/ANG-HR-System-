@@ -1,5 +1,19 @@
 # ANG HR Beta Changelog
 
+## ONLINE-v0.6.0（2026-07-21）
+
+### 本次整理
+
+- 應用顯示版本、套件版本與建置檢查更新為 `v0.6.0`／`0.6.0`。
+- 納入 `GAS/V060_Backend.js` 與 v0.6.0 API 路由：選休設定與提交、支援指派、緊急聯絡人歷史及個資查閱紀錄。
+- 新增真正的單一 HTML 交付版：CSS、React JavaScript、日／夜背景與兩支開場影片全部內嵌，不需另放 `assets` 資料夾。
+- 保留標準 Vite 多檔建置，供 GitHub Pages、後續開發與除錯使用。
+- 清理 Git 忽略規則，避免 `.publish-*`、`node_modules`、`dist`、`_upstream`、`.git.7z` 與測試帳號檔誤上傳。
+
+### 注意
+
+- 前端 Demo 的正式 Auth、Token 與跨公司伺服器權限仍需另外串接；GAS v0.6.0 後端需重新部署 Web App 新版本才會生效。
+
 ## ONLINE-v0.5.0（2026-07-19）
 
 ### 已完成並通過回歸

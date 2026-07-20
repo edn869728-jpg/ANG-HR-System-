@@ -1,0 +1,27 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+
+# Local automation / editor agents
+.agents/
+.codex/
+
+# Temporary publishing mirrors and upstream clones
+.publish-*/
+_upstream/
+
+# Local archives and secrets
+.git.7z
+.env
+.env.*
+!.env.example
+GAS/.clasp.json
+**/.clasp.json
+ONLINE_TEST_ACCOUNTS_*.txt
+
+# Generated release packages
+release-artifacts/**/*.zip
+release-artifacts/**/*.7z
+release-artifacts/**/*.bundle
+release-artifacts/**/site/
+release-artifacts/**/source/

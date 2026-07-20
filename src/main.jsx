@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
-const APP_VERSION = 'v0.5.0';
+const APP_VERSION = 'v0.6.0';
 
 const getBrowserStorage = kind => {
   try { return kind === 'session' ? sessionStorage : localStorage; }

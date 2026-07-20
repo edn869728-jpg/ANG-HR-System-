@@ -1,0 +1,6 @@
+本次另外回傳：
+- ANG-HR-v0.6.0-單一HTML.html
+- ANG-HR-ONLINE-v0.6.0-單一HTML.zip
+- ANG-HR-ONLINE-v0.6.0-標準版.zip
+
+系統包內已保留相同內容的 dist/ 與 standalone/，不重複塞入 ZIP，避免檔案過大。

@@ -1,0 +1,21 @@
+ANG HR ONLINE v0.6.0
+Build date: 2026-07-21
+Deploy target: GitHub Pages / standalone HTML
+Entry: index.html
+
+This release updates the visible application version to v0.6.0 and includes the
+GAS v0.6.0 backend extension already present in GAS/V060_Backend.js.
+
+Included delivery forms:
+- Standard Vite build under dist/
+- One-file offline preview under standalone/ANG-HR-v0.6.0-單一HTML.html
+- GitHub Pages one-file package under release-artifacts/ANG-HR-ONLINE-v0.6.0/
+
+The single HTML embeds the compiled CSS, JavaScript, day/night backgrounds and
+both opening videos. It can be opened directly without keeping an assets folder.
+
+Important:
+- The React online demo still uses the seven fixed temporary accounts.
+- Formal Auth, token verification, server-side tenant isolation and production
+  data synchronization are not represented by the demo frontend alone.
+- GAS v0.6.0 must be deployed separately as a new Apps Script Web App version.
