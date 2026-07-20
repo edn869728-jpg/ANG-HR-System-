@@ -1,0 +1,9 @@
+ANG HR SYSTEM
+Release: ANG-HR-BETA-v0.1
+Application version: BETA-v0.1
+Package version: 0.1.0
+Frozen date: 2026-07-18 (Asia/Taipei)
+
+Build and smoke tests passed before this source snapshot.
+The intended Git tag is ANG-HR-BETA-v0.1, but Git commit/tag creation was blocked by the execution environment. Verify the archive against SHA256SUMS.txt.
+This is a local-only front-end Demo. It has no real Auth, API, server database or tenant isolation. Do not use real sensitive data.
