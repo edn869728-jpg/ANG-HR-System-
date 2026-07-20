@@ -1,0 +1,17 @@
+ANG HR ONLINE v0.5.0
+Build date: 2026-07-19
+Deploy target: GitHub Pages /app/
+Entry: index.html
+
+This is a Vite single-page application. Employee and Admin screens are bundled
+inside assets/index-DwNMzswZ.js, so separate employee.html/admin.html files are
+not required.
+
+Included:
+- index.html
+- compiled React JavaScript and CSS under assets/
+- day and night landing backgrounds
+- day-to-night and night-to-day opening videos
+
+Login uses one entry and resolves the role/plan from the seven fixed temporary
+accounts. Backend Auth/API/tenant isolation are not connected yet.
